@@ -1,0 +1,6 @@
+.gray-readonly {
+    background-color: #e0e0e0; /* 灰色背景 */
+    color: #808080; /* 灰色文本 */
+    border: 1px solid #ccc; /* 边框颜色 */
+    cursor: not-allowed; /* 鼠标指针样式 */
+  }

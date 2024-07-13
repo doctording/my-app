@@ -8,8 +8,18 @@
 # testing
 /coverage
 
+# 锁文件
+package-lock.json
+yarn.lock
+
 # production
+dist/
 /build
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # misc
 .DS_Store
@@ -18,6 +28,4 @@
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.vscode

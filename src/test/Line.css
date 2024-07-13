@@ -1,0 +1,7 @@
+/* Line.css */
+.line {
+    border: none;
+    height: 1px;
+    background-color: #000; /* 直线颜色 */
+    margin: 5px 0; /* 上下间距 */
+  }
