@@ -1,0 +1,16 @@
+.photo-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-item p {
+    margin: 8px 0;
+  }
+  

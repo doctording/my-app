@@ -22,6 +22,8 @@ import UseStatusComponent from '../test/UseStatusComponent';
 import MyTable from '../test/MyTable';
 import MyUrlTable from '../test/MyUrlTable';
 
+import PhotoApp from '../photo/PhotoApp';
+
 const { SubMenu } = Menu;
 
 const FengFengApp = () => {
@@ -38,7 +40,7 @@ const FengFengApp = () => {
       case 'home':
         return <Home />
       case 'app':
-        return <h2>app</h2>;
+        return <PhotoApp />
       case '1':
         return <Addfunc />;
       case '2':
