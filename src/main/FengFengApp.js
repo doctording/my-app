@@ -23,6 +23,7 @@ import MyTable from '../test/MyTable';
 import MyUrlTable from '../test/MyUrlTable';
 
 import PhotoApp from '../photo/PhotoApp';
+import MyTab from '../mytab/MyTab';
 
 const { SubMenu } = Menu;
 
@@ -41,6 +42,8 @@ const FengFengApp = () => {
         return <Home />
       case 'app':
         return <PhotoApp />
+      case 'mail':
+        return <MyTab />
       case '1':
         return <Addfunc />;
       case '2':
